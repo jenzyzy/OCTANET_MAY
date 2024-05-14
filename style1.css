@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size:cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(226, 238, 237); /* Light background color */
+}
+
+header {
+  background-color:rgb(192, 238, 255); /* White header background */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+  color: #4b5854; /* Dark primary text color */
+}
+
+p {
+  font-size: 1em;
+  color: #100e0e; /* Secondary text color */
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center navigation links */
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+nav li {
+  margin-right:10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1d1e; /* Inherit primary text color */
+  font-weight: bold; /* Bold navigation links */
+}
+
+main {
+  padding: 50px;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner img {
+  width: 100%; /* Responsive image */
+  max-width: 600px; /* Set a maximum width */
+}
+
+.banner h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #222121;
+}
+
+.banner a {
+  background-color: #000000; /* Accent color for button */
+  color: hsl(180, 32%, 69%); /* White text for button */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.banner a:hover {
+  background-color: #ffffff; /* Darker shade on hover */
+}
+
+.flavors {
+  display: flex;
+  justify-content: space-around; /* Distribute flavor cards evenly */
+  flex-wrap: wrap; /* Wrap cards to multiple lines if needed */
+  margin-bottom: 50px;
+}
+
+.flavor-card {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: #a0c0c2; /* White background for cards */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.flavor-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Round image for cakes */
+  margin-bottom: 10px;
+}
+
+.flavor-card:hover {
+  transform: scale(1.05); /* Enlarge card slightly on hover */
+}
+
+.custom {
+  margin-bottom: 50px;
+}
+
+.testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #eff9f8; /* Light border for testimonials */
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #fbfffe;
+}
